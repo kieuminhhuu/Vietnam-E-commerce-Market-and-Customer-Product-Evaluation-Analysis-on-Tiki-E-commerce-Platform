@@ -1,2 +1,5 @@
-# Th-tr-ng-TMDT-Vi-t-Nam-v-Ph-n-t-ch-nh-gi-s-n-ph-m-c-a-kh-ch-h-ng-tr-n-s-n-TMDT-Tiki
-Tổng quan về thị trường TMDT Việt Nam, tìm hiểu về tiki và phân tích những phản hồi của khách hàng khi mua sản phẩm trên sàn TMDT Tiki
+# Mục lục
+## I. Tổng quan thị trường TMĐT Việt Nam
+- Thương mại điện tử (E-Commerce) là hình thức kinh doanh trực tuyến sử dụng nền tảng công nghệ thông tin với sự hỗ trợ của Internet để thực hiện các giao dịch mua bán, trao đổi, thanh toán trực tuyến
+- Quy mô thị trường TMĐT bán lẻ Việt Nam liên tục gia tăng. Nếu như năm 2018, doanh thu TMĐT B2C Việt Nam mới đạt khoảng 8,1 tỷ USD, thì đến năm 2019, đã đạt 10,8 tỷ USD (so với 2018, tăng 34%) và 11,8 tỷ USD vào năm 2020 (tăng 9,3%). Năm 2021 cán mốc 13,7 tỷ USD (so với 2020, tăng 16,1%). Năm 2022, quy mô thị trường TMĐT bán lẻ Việt Nam đạt 16,4 tỷ USD, chiếm 7,5% tổng mức bán lẻ hàng hoá và doanh thu dịch vụ tiêu dung (so với 2021, tăng 19,7%). Với tốc độ tăng trưởng 20%/năm, Việt Nam được eMarketer xếp vào nhóm 5 quốc gia có tốc độ tăng trưởng TMĐT hàng đầu thế giới.Khảo sát của Vecom cho thấy, có 23% doanh nghiệp bán sản phẩm trên các sàn TMĐT. Shopee và Lazada là hai sàn TMĐT lớn nhất, trong khi đó dù mới hoạt động từ giữa năm 2022 nhưng Tiktok Shop đã trở thành nền tảng TMĐT bán lẻ lớn thứ 3 tại Việt Nam
+- 
