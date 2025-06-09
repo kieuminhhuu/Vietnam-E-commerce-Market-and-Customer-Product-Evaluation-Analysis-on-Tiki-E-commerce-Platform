@@ -140,6 +140,8 @@ Dataset bao gồm các trường thông tin sau: </br>
   - id_product: id product của đánh giá
   - timeline: thời gian đánh giá
 Việc phân tích tập dataset đánh giá sản phẩm này sẽ trả lời các câu hỏi chính sau </br>
+
+
 Câu 1: Số lượng các đánh giá Cực kỳ hài lòng, Hài lòng, Bình thường, Không hài lòng và Rất không hài lòng </br>
 Câu 2: Các đánh giá tiêu cực nhắc đến các khía cạnh nào </br>
 Câu 3: Các đánh giá tích cực nhắc đến các khía cạnh nào </br>
