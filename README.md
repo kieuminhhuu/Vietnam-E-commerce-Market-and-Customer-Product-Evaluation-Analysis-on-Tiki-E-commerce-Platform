@@ -110,3 +110,60 @@ Bước 2: Crawl tất cả các đánh giá của tất cả sản phẩm đã 
 - Kết quả:
   ![image](https://github.com/user-attachments/assets/8880cd58-05ab-4483-9214-cf64dc2f8015)
 Bước 3: Phân tích các mặt tích cực và tiêu cực từ những đánh giá
+Dataset bao gồm các trường thông tin sau: </br>
+  - id_commnet: id của đánh giá sản phẩm
+  - title: tiêu đề của đánh giá
+  - content: nội dung của đánh giá
+  - positve: các khía cạnh được đánh giá tích cực
+  - negative: các khía cạnh được đánh giá tiêu cực
+  - natural: các khía cạnh được đánh giá trung tính
+  - rating: số sao của đánh giá
+  - id_product: id product của đánh giá
+  - timeline: thời gian đánh giá
+Việc phân tích tập dataset đánh giá sản phẩm này sẽ trả lời các câu hỏi chính sau </br>
+Câu 1: Số lượng các đánh giá Cực kỳ hài lòng, Hài lòng, Bình thường, Không hài lòng và Rất không hài lòng </br>
+Câu 2: Các đánh giá tiêu cực nhắc đến các khía cạnh nào </br>
+Câu 3: Các đánh giá tích cực nhắc đến các khía cạnh nào </br>
+- Import data lên Google Colab
+![image](https://github.com/user-attachments/assets/83a679f9-ed9c-4a41-854e-2db963ace4ec)
+- Tiền xử lý dữ liệu
+  - Thông thường các title sẽ nằm trong tập giá trị sau: Cực kỳ hài lòng, Hài lòng, Bình thường, Không hài lòng và Rất không hài lòng -> kiểm tra và xem xét lại bỏ các title không phổ biến
+      - Tất cả title
+        ![image](https://github.com/user-attachments/assets/01a22064-baf3-4bf8-ac3f-b779f8ee9e37)
+        ![image](https://github.com/user-attachments/assets/585142c8-defb-4946-9634-8c2d44132985)
+      --> Hầu hết các đánh giá đều thuộc 5 đánh giá thông thường trên --> Giữ lại tất cả các đánh giá có title thuộc 5 title thông thường trên
+      ![image](https://github.com/user-attachments/assets/c3b530ce-7819-4b2d-a63b-1da192446f24)
+  - Bỏ dấu ở các trường positive, negative, natural
+    ![image](https://github.com/user-attachments/assets/d07ab0be-f836-4eaf-b9a3-0cf768fc5b06)
+    ![image](https://github.com/user-attachments/assets/cb7b84fd-03f5-4ca6-86eb-a1a5412e6729)
+  - Chuyển các ký tự in hoa thành in thường
+    ![image](https://github.com/user-attachments/assets/d839de2a-4f85-438a-988d-f5922b2144ca)
+    ![image](https://github.com/user-attachments/assets/dc75f894-1214-4b84-bd89-334528e41237)
+- Câu 1: Số lượng các đánh giá Cực kỳ hài lòng, Hài lòng, Bình thường, Không hài lòng và Rất không hài lòng
+![image](https://github.com/user-attachments/assets/00efdeb0-512d-4932-a5b2-65a910f49547)
+![image](https://github.com/user-attachments/assets/b276457f-75dd-48f2-acce-866dbef2455b)
+--> Trong năm 5378 đánh giá sản phẩm thì có 5237 chiếm 97,4% là đánh giá rất hài lòng và hài lòng về sản phẩm, trong đó chiếm 92.5% là đánh giá rất hài lòng --> cho thấy sản phẩm của tiki nhận được sự hài lòng rất lớn từ khách hàng. Chỉ có khoảng 2,6% là các đánh giá không hài lòng hoặc bình thường từ khách hàng </br>
+- Câu 2: Các đánh giá tích cực nhắc đến các khía cạnh nào
+  - Từ trường tích cực tách ra lấy các khía cạnh được nhắc đến: </br>
+    ![image](https://github.com/user-attachments/assets/97abd8f8-0b04-47e0-bd4b-c0a9d75277cc)
+    ![image](https://github.com/user-attachments/assets/a4802fc0-db43-4b2c-be5b-30f9a4c86f72)
+--> Những khía cạnh tích cực được đánh giá là: giao hàng nhanh, san phẩm tốt, san phẩm chính hãng, đóng gói cẩn thận, nguyên seal, giá tốt ,...
+- Câu 3: Các đánh giá tiêu cực nhắc đến các khía cạnh nào
+  - Từ trường tiêu cực tách ra lấy ra các khía cạnh tiêu cực được nhắc đến: </br>
+    ![image](https://github.com/user-attachments/assets/a4b368a1-c809-45f5-b159-6688cd4bdaf0)
+    ![image](https://github.com/user-attachments/assets/b515c55a-7489-4947-b6f3-63fbca9afb00)
+--> Các khía cạnh mà khách hàng đánh giá tiêu cực: giao hàng chậm, san phẩm lỗi/hỏng, đóng gói không cẩn thận, thiếu phụ kiện đi kèm, cskh không tốt, sản phẩm có hiệu năng kém, thiếu hóa đơn
+- Kết luận:
+  - Điểm mạnh:
+    - Giao hàng nhanh: đặc biệt với dịch vụ TikiNow
+    - Sản phẩm chất lượng tốt, chính hãng: thể hiện phần nào cam kết 100% sản phẩm chính hãng của tiki, giúp tăng uy tín trong mắt khách hàng về nguồn hàng
+    - Đóng gói cẩn thận, nguyên seal: Đảm bảo độ tin cậy trong quy trình xử lý đơn hàng
+    - Giá tốt: Đối với những mặt hàng giá trị cao việc áp dụng các chính sách khuyến mãi khiến khách hàng cảm thấy giá trị nhận được là hợp lý
+    -->  tăng lòng tin, tỷ lệ quay lại mua hàng
+  - Điểm yếu:
+    - Giao hàng chậm ở một số khu vực: Điều này có thể do thiếu kho trung chuyển, tài xế hoặc vận hành chưa tối ưu
+    - Sản phẩm lỗi/hỏng: Có thể do kiểm định chất lượng đầu vào vẫn còn sai sót hoặc lỗi trong quá trình vận chuyển
+    - Đóng gói không cẩn thận:Có thể bất nguồn từ không đồng đều về quy chuẩn đóng gói giữa các đơn vị/kho hoặc do nhà cung cấp đã không làm đúng quy trình
+    - Thiếu phụ kiện đi kèm, thiếu hóa đơn: Thiếu sót trong quá trình hoàn thiện đơn hàng.
+    - CSKH không tốt: Khách hàng không hài lòng với phản hồi, giải quyết khiếu nại
+--> Những điểm này đều cho thấy tiki đã tập trung phát triển rất tốt những lợi thế cạnh tranh mà mình đang có như Cam kết hàng chính hãng 100% , Dịch vụ logistics siêu tốc (TikiNOW), Trải nghiệm khách hàng và Định hướng chất lượng thay vì số lượng
