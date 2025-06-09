@@ -92,6 +92,6 @@ d. Định hướng chất lượng thay vì số lượng </br>
   - Bước 2: Crawl tất cả đánh giá của tất cả sản phẩm Điện thoại - Máy tính bảng: ID comment, Title, Content, Rating, ID Product, Timeline
   - Bước 3: Phân tích các mặt tích cực và tiêu cực từ những đánh giá
   - Bước 4: Kết luận
-3. Thực hiện
-Phương pháp Crawl: tạo request tới URL API tiki để nhận lại data từ response
-Bước 1:  Crawl thông tin tất cả sản phẩm Điện thoại - Máy tính bảng
+3. Thực hiện </br>
+Phương pháp Crawl: tạo request tới URL API tiki để nhận lại data từ response </br>
+Bước 1:  Crawl thông tin tất cả sản phẩm Điện thoại - Máy tính bảng </br>
