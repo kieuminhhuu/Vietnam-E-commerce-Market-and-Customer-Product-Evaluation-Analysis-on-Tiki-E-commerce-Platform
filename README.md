@@ -84,3 +84,13 @@ c. Trải nghiệm khách hàng </br>
 d. Định hướng chất lượng thay vì số lượng </br> 
     - Chọn lọc người bán: Tiki yêu cầu giấy phép kinh doanh và chứng nhận nguồn gốc sản phẩm, hạn chế gian hàng "trôi nổi". Điều này khiến số lượng sản phẩm ít hơn Shopee nhưng đảm bảo uy tín </br>
     - Tập trung vào phân khúc cao cấp: Tiki nhắm đến khách hàng có thu nhập trung bình – cao, sẵn sàng chi trả nhiều hơn cho hàng chính hãng và dịch vụ tốt </br>
+## IV. Phân tích phản hồi của khách hàng khi mua sản phẩm trên Tiki
+1. Mục tiêu:
+  - Phân tích tất cả các khía cạnh tích cực và tiêu cực từ những đánh giá của khách hàng sau khi mua sản phẩm trên Tiki
+2. Các bước thực hiện
+  - Bước 1: Crawl thông tin tất cả sản phẩm Điện thoại - Máy tính bảng: ID sản phẩm, Tên sản phẩm, URL Path, Brand Name, Price, Rating Average, Discount, Discount Rate, Quantity Sold
+  - Bước 2: Crawl tất cả đánh giá của tất cả sản phẩm Điện thoại - Máy tính bảng: ID comment, Title, Content, Rating, ID Product, Timeline
+  - Bước 3: Phân tích các mặt tích cực và tiêu cực từ những đánh giá
+  - Bước 4: Kết luận
+3. Thực hiện
+Bước 1:  Crawl thông tin tất cả sản phẩm Điện thoại - Máy tính bảng
