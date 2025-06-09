@@ -142,20 +142,18 @@ Câu 3: Các đánh giá tích cực nhắc đến các khía cạnh nào </br>
 - Câu 1: Số lượng các đánh giá Cực kỳ hài lòng, Hài lòng, Bình thường, Không hài lòng và Rất không hài lòng
 ![image](https://github.com/user-attachments/assets/00efdeb0-512d-4932-a5b2-65a910f49547)
 ![image](https://github.com/user-attachments/assets/b276457f-75dd-48f2-acce-866dbef2455b)
-</br>
---> Trong năm 5378 đánh giá sản phẩm thì có 5237 chiếm 97,4% là đánh giá rất hài lòng và hài lòng về sản phẩm, trong đó chiếm 92.5% là đánh giá rất hài lòng --> cho thấy sản phẩm của tiki nhận được sự hài lòng rất lớn từ khách hàng. Chỉ có khoảng 2,6% là các đánh giá không hài lòng hoặc bình thường từ khách hàng </br>
+</br> --> Trong năm 5378 đánh giá sản phẩm thì có 5237 chiếm 97,4% là đánh giá rất hài lòng và hài lòng về sản phẩm, trong đó chiếm 92.5% là đánh giá rất hài lòng --> cho thấy sản phẩm của tiki nhận được sự hài lòng rất lớn từ khách hàng. Chỉ có khoảng 2,6% là các đánh giá không hài lòng hoặc bình thường từ khách hàng </br>
 - Câu 2: Các đánh giá tích cực nhắc đến các khía cạnh nào
   - Từ trường tích cực tách ra lấy các khía cạnh được nhắc đến: </br>
     ![image](https://github.com/user-attachments/assets/97abd8f8-0b04-47e0-bd4b-c0a9d75277cc)
     ![image](https://github.com/user-attachments/assets/a4802fc0-db43-4b2c-be5b-30f9a4c86f72)
-    </br>
 --> Những khía cạnh tích cực được đánh giá là: giao hàng nhanh, san phẩm tốt, san phẩm chính hãng, đóng gói cẩn thận, nguyên seal, giá tốt ,...
 - Câu 3: Các đánh giá tiêu cực nhắc đến các khía cạnh nào
   - Từ trường tiêu cực tách ra lấy ra các khía cạnh tiêu cực được nhắc đến: </br>
     ![image](https://github.com/user-attachments/assets/a4b368a1-c809-45f5-b159-6688cd4bdaf0)
     ![image](https://github.com/user-attachments/assets/b515c55a-7489-4947-b6f3-63fbca9afb00) 
-</br>
---> Các khía cạnh mà khách hàng đánh giá tiêu cực: giao hàng chậm, san phẩm lỗi/hỏng, đóng gói không cẩn thận, thiếu phụ kiện đi kèm, cskh không tốt, sản phẩm có hiệu năng kém, thiếu hóa đơn
+
+</br> --> Các khía cạnh mà khách hàng đánh giá tiêu cực: giao hàng chậm, san phẩm lỗi/hỏng, đóng gói không cẩn thận, thiếu phụ kiện đi kèm, cskh không tốt, sản phẩm có hiệu năng kém, thiếu hóa đơn
 - Kết luận:
   - Điểm mạnh:
     - Giao hàng nhanh: đặc biệt với dịch vụ TikiNow
