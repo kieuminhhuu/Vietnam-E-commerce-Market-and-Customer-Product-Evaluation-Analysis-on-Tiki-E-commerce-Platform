@@ -93,7 +93,20 @@ d. Định hướng chất lượng thay vì số lượng </br>
   - Bước 3: Phân tích các mặt tích cực và tiêu cực từ những đánh giá
   - Bước 4: Kết luận
 3. Thực hiện </br>
-Phương pháp Crawl: tạo request tới URL API tiki để nhận lại data từ response </br>
+Phương pháp Crawl: tạo request tới URL API tiki để nhận lại data dạng JSON từ response </br>
 Bước 1:  Crawl thông tin tất cả sản phẩm Điện thoại - Máy tính bảng </br>
-Tạo tham số cần thiết cho request
+- Tạo tham số cần thiết cho request
 ![image](https://github.com/user-attachments/assets/1148af72-bd1a-4c8d-892d-1a898d23a5f4)
+- Tạo request, lấy các trường thông tin: id, name, url_path, brand_name, price, rating_average, discount,  discount_rate, quantity_sold của data được trả về và lưu vào file detial_product.xlsx
+![image](https://github.com/user-attachments/assets/728d7878-05b2-41fa-898c-97f22463bb94)
+![image](https://github.com/user-attachments/assets/59baf304-d6d7-4244-b3c4-4dc5880f0e00)
+- Kết quả
+![image](https://github.com/user-attachments/assets/1c46fb6f-5b89-4b65-ac7d-c306597ef2fe)
+Bước 2: Crawl tất cả các đánh giá của tất cả sản phẩm đã crawl được từ bước trước
+- Tạo tham số cần thiết cho request
+![image](https://github.com/user-attachments/assets/9899050e-349d-4ae6-b41d-1a974d870316)
+- Tạo request, lấy các trường thông tin:id_comment, title, content, rating, id_product, timeline của data được trả về và lưu vào file detail_comment.xlsx
+  ![image](https://github.com/user-attachments/assets/a1f610f4-2ce6-4150-b8fa-3ac6eb11c335)
+- Kết quả:
+  ![image](https://github.com/user-attachments/assets/8880cd58-05ab-4483-9214-cf64dc2f8015)
+Bước 3: Phân tích các mặt tích cực và tiêu cực từ những đánh giá
