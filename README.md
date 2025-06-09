@@ -139,10 +139,12 @@ Dataset bao gồm các trường thông tin sau: </br>
   - rating: số sao của đánh giá
   - id_product: id product của đánh giá
   - timeline: thời gian đánh giá </br>
+ 
+
 Việc phân tích tập dataset đánh giá sản phẩm này sẽ trả lời các câu hỏi chính sau:  </br>
-Câu 1: Số lượng các đánh giá Cực kỳ hài lòng, Hài lòng, Bình thường, Không hài lòng và Rất không hài lòng </br>
+**Câu 1: Số lượng các đánh giá Cực kỳ hài lòng, Hài lòng, Bình thường, Không hài lòng và Rất không hài lòng </br>
 Câu 2: Các đánh giá tiêu cực nhắc đến các khía cạnh nào </br>
-Câu 3: Các đánh giá tích cực nhắc đến các khía cạnh nào </br>
+Câu 3: Các đánh giá tích cực nhắc đến các khía cạnh nào </br>**
 - Import data lên Google Colab
 ![image](https://github.com/user-attachments/assets/83a679f9-ed9c-4a41-854e-2db963ace4ec)
 - Tiền xử lý dữ liệu
