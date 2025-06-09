@@ -95,3 +95,5 @@ d. Định hướng chất lượng thay vì số lượng </br>
 3. Thực hiện </br>
 Phương pháp Crawl: tạo request tới URL API tiki để nhận lại data từ response </br>
 Bước 1:  Crawl thông tin tất cả sản phẩm Điện thoại - Máy tính bảng </br>
+Tạo tham số cần thiết cho request
+![image](https://github.com/user-attachments/assets/1148af72-bd1a-4c8d-892d-1a898d23a5f4)
