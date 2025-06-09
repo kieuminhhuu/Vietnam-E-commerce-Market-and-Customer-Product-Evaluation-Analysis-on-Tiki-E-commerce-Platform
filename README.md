@@ -1,19 +1,23 @@
 # Mục lục
-I. Tổng quan thị trường TMĐT Việt Nam
-II. Các yếu tố ảnh hưởng tới sự chuyển dịch hành vi mua hàng từ Offline sang Online
-  1. Sự phát triển của công nghệ và ứng dụng AI
-  2. Các chiến lược thu hút người dùng của các sàn TMDT
-  3. Sự phát triển của hệ thống logistic
-  4. Đại dịch Covid-19
-  5. Chính sách hỗ trợ và cải cách pháp lý
-III. Tìm hiểu Sàn TMDT Tiki
-  1. Tìm hiểu chung
-  2. Các mô hình hoạt động của TiKi
-  3. Dịch vụ của Tiki
-  4. Nguồn doanh thu của Tiki
-  5. Giá trị khác biệt của Tiki so với các sàn TMDT khác
-IV. Phân tích phản hồi của khách hàng khi mua sản phẩm trên Tiki
-V. Tổng kết
+I. Tổng quan thị trường TMĐT Việt Nam </br>
+
+II. Các yếu tố ảnh hưởng tới sự chuyển dịch hành vi mua hàng từ Offline sang Online </br>
+  1. Sự phát triển của công nghệ và ứng dụng AI </br>
+  2. Các chiến lược thu hút người dùng của các sàn TMDT </br>
+  3. Sự phát triển của hệ thống logistic </br>
+  4. Đại dịch Covid-19 </br>
+  5. Chính sách hỗ trợ và cải cách pháp lý </br>
+
+III. Tìm hiểu Sàn TMDT Tiki </br>
+  1. Tìm hiểu chung </br>
+  2. Các mô hình hoạt động của TiKi </br>
+  3. Dịch vụ của Tiki </br>
+  4. Nguồn doanh thu của Tiki </br>
+  5. Giá trị khác biệt của Tiki so với các sàn TMDT khác </br>
+
+IV. Phân tích phản hồi của khách hàng khi mua sản phẩm trên Tiki </br>
+
+V. Tổng kết 
 ## I. Tổng quan thị trường TMĐT Việt Nam
 - Thương mại điện tử (E-Commerce) là hình thức kinh doanh trực tuyến sử dụng nền tảng công nghệ thông tin với sự hỗ trợ của Internet để thực hiện các giao dịch mua bán, trao đổi, thanh toán trực tuyến
 - Quy mô thị trường TMĐT bán lẻ Việt Nam liên tục gia tăng </br>
